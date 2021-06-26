@@ -1,4 +1,7 @@
-import * as React from 'react';
+import React, { useState } from "react";
+import { TezosToolkit } from "@taquito/taquito";
+import ConnectButton from "./components/ConnectWallet";
+
 
 import './styles.scss';
 

@@ -10,7 +10,7 @@ function openWebPage(url: string): Promise<Tabs.Tab> {
 const Popup: React.FC = () => {
   return (
     <section id="popup">
-      <h2>WEB-EXTENSION-STARTER</h2>
+      <h2>Taquito Web Extension</h2>
       <button
         id="options__button"
         type="button"
@@ -18,7 +18,7 @@ const Popup: React.FC = () => {
           return openWebPage('options.html');
         }}
       >
-        Options Page
+        Settings Page
       </button>
       <div className="links__holder">
         <ul>
@@ -27,11 +27,11 @@ const Popup: React.FC = () => {
               type="button"
               onClick={(): Promise<Tabs.Tab> => {
                 return openWebPage(
-                  'https://github.com/abhijithvijayan/web-extension-starter'
+                  'https://github.com/shivanshxyz/taquito-web-extension'
                 );
               }}
             >
-              GitHub
+              Fork this project here
             </button>
           </li>
           <li>
@@ -39,11 +39,11 @@ const Popup: React.FC = () => {
               type="button"
               onClick={(): Promise<Tabs.Tab> => {
                 return openWebPage(
-                  'https://www.buymeacoffee.com/abhijithvijayan'
+                  'https://tezostaquito.io/docs'
                 );
               }}
             >
-              Buy Me A Coffee
+              Read Docs
             </button>
           </li>
         </ul>
