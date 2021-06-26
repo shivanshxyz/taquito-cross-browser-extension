@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { TezosToolkit } from "@taquito/taquito";
 import ConnectButton from "./components/ConnectWallet";
+import DisconnectButton from "./components/DisconnectWallet";
 
 
 import './styles.scss';
