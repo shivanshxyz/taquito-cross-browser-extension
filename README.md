@@ -7,13 +7,13 @@
 There are a lot of web extension based dapps available built on top of Ethereum, but there were none for Tezos. One of the reasons being that there were a lot of starter kits/boilerplates that let people compile solidity contracts right into cross browser web extensions which makes it difficult for new hackers/BUIDLers who may wanna dive into the Tezos ecosystem. So I wanted to bridge the gap for new BUIDLers who are passionate about the Tezos ecosystem like me so I created this cross browser extension that works on a variety of browsers.
 
 ## Features ->
-- React
-- Typescript
-- Taquito
-- Webpack
-- Beacon SDK
-- Ledger Signer
-- Tezbridge
+- Cross Browser Support (Web-Extensions API)
+- Browser Specific manifest.json generation
+- Hot reload
+- SASS styling
+- TypeScript support
+- ES6 modules support
+
 
 ## Browser Support ->
 
